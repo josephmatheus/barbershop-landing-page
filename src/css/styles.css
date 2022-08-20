@@ -1,0 +1,191 @@
+/* HEADER */
+
+.cabecalho {
+    background-color: var(--preto1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 72px;
+}
+
+.cabecalho .botao-agendar {
+    background-color: var(--preto1);
+    color: var(--branco1);
+    border: 2px solid var(--branco1);
+    font-size: 1.8rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.cabecalho .botao-agendar:hover{
+    border: 2px solid var(--vermelho1);
+    color: #ffffff67;
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--preto1);
+    padding: 0px 72px;
+    max-width: 100%;
+}
+
+.hero .hero-info {
+    color: var(--branco1);
+    max-width: 50%;
+}
+
+.hero .hero-info h2 {
+    font-size: 5.6rem;
+    width: 15ch;
+    line-height: 6rem;
+}
+
+.hero .hero-info p{
+    font-size: 2rem;
+    margin-top: 15px;
+    width: 40ch;
+}
+
+.hero .botao-agendar-vermelho {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    background-color: var(--vermelho1);
+    color: var(--branco1);
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.hero .botao-agendar-vermelho img {
+    margin-right: 20px;
+}
+
+.hero .hero-image {
+    width: 50%
+}
+
+.hero .hero-image img{
+    max-width: 100%;
+}
+
+/* SERVIÇOS */
+
+.nossos-servicos {
+    font-size: 2rem;
+    padding: 50px;
+}
+
+.nossos-servicos p {
+    color: var(--vermelho2);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nossos-servicos h2 {
+    font-size: 4rem;
+    margin-bottom: 32px;
+}
+
+.servicos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.servicos .servico {
+    width: 250px;
+    margin-right: 32px;
+    border: 1px solid var(--preto1);
+    background-color: var(--branco2);
+}
+
+.servicos .servico img {
+    max-width: 100%;
+}
+
+.servicos .servico .servico-info {
+    padding: 20px;
+    max-height: 100%;
+}
+
+.servicos .servico .servico-info h3 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.servicos .servico .servico-info p {
+    font-size: 1.6rem;
+    color: var(--preto2);
+}
+
+/* LOCALIZAÇÃO */
+
+.nossa-localizacao{
+    background-color: var(--branco2);
+}
+
+.nossa-localizacao .nossa-localizacao-info {
+    padding: 50px;
+}
+
+.nossa-localizacao p:first-child {
+    color: var(--vermelho2);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nossa-localizacao h2 {
+    font-size: 4rem;
+    margin-bottom: 32px;
+}
+
+.nossa-localizacao p {
+    color: var(--preto1);
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.nossa-localizacao p img {
+    margin-right: 20px;
+}
+
+.nossa-localizacao .mapa {
+    margin-top: 20px;
+}
+
+.nossa-localizacao .mapa iframe {
+    min-width: 100%;
+    border: 1px solid var(--preto2);
+}
+
+/* RODAPÉ */
+
+.rodape {
+    background-color: var(--preto1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 72px;
+}
+
+.rodape .rodape-info p {
+    color: var(--branco1);
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.rodape .redes-sociais a {
+    color: var(--branco1);
+    font-size: 4rem;
+    margin-left: 20px;
+}
+
+.rodape .redes-sociais a:hover{
+    color: var(--vermelho2);
+}

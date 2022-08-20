@@ -1,0 +1,24 @@
+:root{
+    --vermelho1: #BA181B;
+    --vermelho2: #E5383B;
+    --preto1: #0B090A;
+    --preto2: #161A1D;
+    --branco1: #FFFFFF;
+    --branco2: #F5F3F4;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    /* margin: 0 auto;
+    width: 1280px; */
+}
