@@ -53,6 +53,7 @@
 .hero .botao-agendar-vermelho {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-top: 15px;
     background-color: var(--vermelho1);
     color: var(--branco1);
@@ -60,6 +61,10 @@
     font-weight: bold;
     padding: 15px;
     cursor: pointer;
+}
+
+.hero .botao-agendar-vermelho:hover {
+    background-color: var(--vermelho2);
 }
 
 .hero .botao-agendar-vermelho img {
