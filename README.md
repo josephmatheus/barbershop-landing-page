@@ -1,5 +1,5 @@
 # [SirBarber](https://josephmatheus.github.io/barbershop-landing-page)
-Landing Page de uma barbearia fictícia, criada com objetivo de por em prática nossos estudos de HTML, CSS e em breve JavaScript. <br>
+Landing Page de uma barbearia fictícia, criada com objetivo de por em prática nossos estudos de HTML, CSS e JavaScript. <br>
 Este projeto foi inspirado pela <b>Maratona Starter</b> da [Codar.me](https://codar.me/)
 ___
 ## Screenshots 🖼
@@ -13,6 +13,7 @@ ___
 
 - HTML
 - CSS
+- JavaScript
 ___
 ## Autores 👨🏾‍💻👨🏻‍💻
 
